@@ -69,6 +69,7 @@ st.markdown('<div class="content-container">', unsafe_allow_html=True)
 
 st.title("Data Sweeper🧹")
 st.subheader("Clean • Convert • Visualize")
+st.write("@by Minhal Mohammed Amin")
 
 uploaded_file = st.file_uploader("Upload a CSV or Excel file", type=["csv", "xlsx"], accept_multiple_files=True)
 
